@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Warehouse Packer Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="header">
+        <h1>Warehouse Packer Dashboard</h1>
+    </div>
+    
+    <div class="container">
+        <button class="refresh-btn" onclick="refreshOrders()">
+            Refresh Orders
+        </button>
+        
+        <div id="orders-container"></div>
+    </div>
+
+    <script>
+        function refreshOrders() {
+            const refreshBtn = document.querySelector('.refresh-btn');
+            refreshBtn.disabled = true;
+            refreshBtn.textContent = 'Refreshing...';
+            
+            fetch('/get_orders')
+                .then(response => response.json())
+                .then(orders => {
+                    const container = document.getElementById('orders-container');
+                    container.innerHTML = '';
+                    
+                    if (orders.length === 0) {
+                        container.innerHTML = '<div class="no-orders">No new orders to process</div>';
+                        return;
+                    }
+                    
+                    orders.forEach(order => {
+                        const orderCard = document.createElement('div');
+                        orderCard.className = 'order-card';
+                        
+                        orderCard.innerHTML = `
+                            <h2>Order for ${order.customer_name}</h2>
+                            <p class="address"><strong>Delivery Address:</strong> ${order.delivery_address}</p>
+                            <h3>Products to Pack:</h3>
+                            <div class="product-list">
+                                ${order.products.map(product => `
+                                    <div class="product-item">
+                                        <strong>${product.name}</strong><br>
+                                        Price: $${product.price}
+                                    </div>
+                                `).join('')}
+                            </div>
+                            <div class="total">Total Amount: $${order.total_amount}</div>
+                        `;
+                        
+                        container.appendChild(orderCard);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    const container = document.getElementById('orders-container');
+                    container.innerHTML = '<div class="error">Error fetching orders. Please try again.</div>';
+                })
+                .finally(() => {
+                    refreshBtn.disabled = false;
+                    refreshBtn.textContent = 'Refresh Orders';
+                });
+        }
+
+        // Initial load
+        refreshOrders();
+    </script>
+</body>
+</html>

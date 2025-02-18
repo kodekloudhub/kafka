@@ -1,0 +1,264 @@
+2025-02-10 08:30:49,433 - __main__ - INFO - Initializing Kafka consumer thread
+2025-02-10 08:30:49,433 - __main__ - INFO - Kafka consumer thread started
+2025-02-10 08:30:49,433 - __main__ - INFO - Starting Kafka consumer for topic: cartevent
+2025-02-10 08:30:49,434 - __main__ - INFO - Kafka configuration: {'bootstrap.servers': '3.68.92.91:9092', 'group.id': 'warehouse_packer_group', 'auto.offset.reset': 'latest', 'enable.auto.commit': True, 'session.timeout.ms': 6000, 'heartbeat.interval.ms': 2000}
+2025-02-10 08:30:49,435 - __main__ - INFO - Successfully created Kafka consumer instance
+2025-02-10 08:30:49,436 - __main__ - INFO - Starting Flask application
+2025-02-10 08:30:49,436 - __main__ - INFO - Successfully subscribed to topic: cartevent
+2025-02-10 08:30:49,443 - werkzeug - WARNING -  * Debugger is active!
+2025-02-10 08:30:49,444 - werkzeug - INFO -  * Debugger PIN: 230-102-780
+2025-02-10 08:30:50,424 - werkzeug - INFO -  * Detected change in '/workspaces/kafka-demo/final_project/warehouse-ui/app.py', reloading
+2025-02-10 08:30:50,614 - __main__ - INFO - Initializing Kafka consumer thread
+2025-02-10 08:30:50,614 - __main__ - INFO - Starting Kafka consumer for topic: cartevent
+2025-02-10 08:30:50,614 - __main__ - INFO - Kafka configuration: {'bootstrap.servers': '3.68.92.91:9092', 'group.id': 'warehouse_packer_group', 'auto.offset.reset': 'latest', 'enable.auto.commit': True, 'session.timeout.ms': 6000, 'heartbeat.interval.ms': 2000}
+2025-02-10 08:30:50,614 - __main__ - INFO - Kafka consumer thread started
+2025-02-10 08:30:50,616 - __main__ - INFO - Successfully created Kafka consumer instance
+2025-02-10 08:30:50,616 - __main__ - INFO - Starting Flask application
+2025-02-10 08:30:50,616 - __main__ - INFO - Successfully subscribed to topic: cartevent
+2025-02-10 08:30:50,624 - werkzeug - WARNING -  * Debugger is active!
+2025-02-10 08:30:50,624 - werkzeug - INFO -  * Debugger PIN: 230-102-780
+2025-02-10 08:30:52,185 - __main__ - INFO - Received request for orders
+2025-02-10 08:30:52,185 - __main__ - DEBUG - Current queue size before retrieval: 0
+2025-02-10 08:30:52,185 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:30:52,185 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:30:52] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:30:55,514 - __main__ - INFO - Initializing Kafka consumer thread
+2025-02-10 08:30:55,514 - __main__ - INFO - Starting Kafka consumer for topic: cartevent
+2025-02-10 08:30:55,514 - __main__ - INFO - Kafka configuration: {'bootstrap.servers': '3.68.92.91:9092', 'group.id': 'warehouse_packer_group', 'auto.offset.reset': 'latest', 'enable.auto.commit': True, 'session.timeout.ms': 6000, 'heartbeat.interval.ms': 2000}
+2025-02-10 08:30:55,514 - __main__ - INFO - Kafka consumer thread started
+2025-02-10 08:30:55,515 - __main__ - INFO - Successfully created Kafka consumer instance
+2025-02-10 08:30:55,516 - __main__ - INFO - Starting Flask application
+2025-02-10 08:30:55,516 - __main__ - INFO - Successfully subscribed to topic: cartevent
+2025-02-10 08:30:55,528 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://10.0.0.233:5003
+2025-02-10 08:30:55,528 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-10 08:30:55,533 - werkzeug - INFO -  * Restarting with stat
+2025-02-10 08:30:55,711 - __main__ - INFO - Initializing Kafka consumer thread
+2025-02-10 08:30:55,711 - __main__ - INFO - Starting Kafka consumer for topic: cartevent
+2025-02-10 08:30:55,711 - __main__ - INFO - Kafka configuration: {'bootstrap.servers': '3.68.92.91:9092', 'group.id': 'warehouse_packer_group', 'auto.offset.reset': 'latest', 'enable.auto.commit': True, 'session.timeout.ms': 6000, 'heartbeat.interval.ms': 2000}
+2025-02-10 08:30:55,711 - __main__ - INFO - Kafka consumer thread started
+2025-02-10 08:30:55,713 - __main__ - INFO - Starting Flask application
+2025-02-10 08:30:55,713 - __main__ - INFO - Successfully created Kafka consumer instance
+2025-02-10 08:30:55,714 - __main__ - INFO - Successfully subscribed to topic: cartevent
+2025-02-10 08:30:55,721 - werkzeug - WARNING -  * Debugger is active!
+2025-02-10 08:30:55,721 - werkzeug - INFO -  * Debugger PIN: 230-102-780
+2025-02-10 08:31:01,334 - __main__ - INFO - Loading index page
+2025-02-10 08:31:01,337 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:31:01] "GET / HTTP/1.1" 200 -
+2025-02-10 08:31:01,561 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:31:01] "GET /static/styles.css HTTP/1.1" 200 -
+2025-02-10 08:31:01,852 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:31:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-10 08:31:01,858 - __main__ - INFO - Received request for orders
+2025-02-10 08:31:01,858 - __main__ - DEBUG - Current queue size before retrieval: 0
+2025-02-10 08:31:01,859 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:31:01,859 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:31:01] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:31:14,010 - __main__ - INFO - Received request for orders
+2025-02-10 08:31:14,011 - __main__ - DEBUG - Current queue size before retrieval: 0
+2025-02-10 08:31:14,011 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:31:14,011 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:31:14] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:31:32,489 - __main__ - INFO - Received request for orders
+2025-02-10 08:31:32,489 - __main__ - DEBUG - Current queue size before retrieval: 0
+2025-02-10 08:31:32,489 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:31:32,489 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:31:32] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:31:54,788 - __main__ - INFO - Received request for orders
+2025-02-10 08:31:54,788 - __main__ - DEBUG - Current queue size before retrieval: 0
+2025-02-10 08:31:54,788 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:31:54,789 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:31:54] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:32:02,211 - __main__ - INFO - Received request for orders
+2025-02-10 08:32:02,211 - __main__ - DEBUG - Current queue size before retrieval: 0
+2025-02-10 08:32:02,211 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:32:02,211 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:32:02] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:32:32,159 - __main__ - INFO - Received request for orders
+2025-02-10 08:32:32,160 - __main__ - DEBUG - Current queue size before retrieval: 0
+2025-02-10 08:32:32,160 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:32:32,160 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:32:32] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:32:41,274 - __main__ - INFO - Received request for orders
+2025-02-10 08:32:41,275 - __main__ - DEBUG - Current queue size before retrieval: 0
+2025-02-10 08:32:41,275 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:32:41,275 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:32:41] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:32:42,021 - __main__ - INFO - Received request for orders
+2025-02-10 08:32:42,021 - __main__ - DEBUG - Current queue size before retrieval: 0
+2025-02-10 08:32:42,022 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:32:42,022 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:32:42] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:33:02,157 - __main__ - INFO - Received request for orders
+2025-02-10 08:33:02,158 - __main__ - DEBUG - Current queue size before retrieval: 0
+2025-02-10 08:33:02,159 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:33:02,159 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:33:02] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:33:32,157 - __main__ - INFO - Received request for orders
+2025-02-10 08:33:32,158 - __main__ - DEBUG - Current queue size before retrieval: 0
+2025-02-10 08:33:32,158 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:33:32,159 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:33:32] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:34:18,449 - __main__ - INFO - Received request for orders
+2025-02-10 08:34:18,449 - __main__ - DEBUG - Current queue size before retrieval: 0
+2025-02-10 08:34:18,450 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:34:18,450 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:34:18] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:34:25,833 - werkzeug - INFO -  * Detected change in '/workspaces/kafka-demo/final_project/warehouse-ui/app.py', reloading
+2025-02-10 08:34:25,861 - werkzeug - INFO -  * Restarting with stat
+2025-02-10 08:34:26,019 - __main__ - INFO - Starting Kafka consumer for topic: cartevent
+2025-02-10 08:34:26,019 - __main__ - INFO - Kafka consumer thread started
+2025-02-10 08:34:26,021 - __main__ - INFO - Successfully created Kafka consumer instance
+2025-02-10 08:34:26,029 - werkzeug - WARNING -  * Debugger is active!
+2025-02-10 08:34:26,029 - werkzeug - INFO -  * Debugger PIN: 230-102-780
+2025-02-10 08:34:26,955 - werkzeug - INFO -  * Detected change in '/workspaces/kafka-demo/final_project/warehouse-ui/app.py', reloading
+2025-02-10 08:34:26,999 - werkzeug - INFO -  * Restarting with stat
+2025-02-10 08:34:27,192 - __main__ - INFO - Starting Kafka consumer for topic: cartevent
+2025-02-10 08:34:27,192 - __main__ - INFO - Kafka consumer thread started
+2025-02-10 08:34:27,194 - __main__ - INFO - Successfully created Kafka consumer instance
+2025-02-10 08:34:27,204 - werkzeug - WARNING -  * Debugger is active!
+2025-02-10 08:34:27,205 - werkzeug - INFO -  * Debugger PIN: 230-102-780
+2025-02-10 08:34:31,521 - __main__ - INFO - Assigned partitions: [TopicPartition{topic=cartevent,partition=0,offset=-1001,leader_epoch=None,error=None}]
+2025-02-10 08:34:32,241 - __main__ - INFO - Received request for orders
+2025-02-10 08:34:32,241 - __main__ - INFO - Queue size before retrieval: 0
+2025-02-10 08:34:32,241 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:34:32,241 - __main__ - DEBUG - Orders being sent to frontend: []
+2025-02-10 08:34:32,241 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:34:32] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:34:34,732 - __main__ - INFO - Starting Kafka consumer for topic: cartevent
+2025-02-10 08:34:34,732 - __main__ - INFO - Kafka consumer thread started
+2025-02-10 08:34:34,765 - __main__ - INFO - Successfully created Kafka consumer instance
+2025-02-10 08:34:34,768 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://10.0.0.233:5003
+2025-02-10 08:34:34,768 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-10 08:34:34,776 - werkzeug - INFO -  * Restarting with stat
+2025-02-10 08:34:35,053 - __main__ - INFO - Starting Kafka consumer for topic: cartevent
+2025-02-10 08:34:35,053 - __main__ - INFO - Kafka consumer thread started
+2025-02-10 08:34:35,055 - __main__ - INFO - Successfully created Kafka consumer instance
+2025-02-10 08:34:35,072 - werkzeug - WARNING -  * Debugger is active!
+2025-02-10 08:34:35,073 - werkzeug - INFO -  * Debugger PIN: 230-102-780
+2025-02-10 08:34:39,944 - __main__ - INFO - Assigned partitions: []
+2025-02-10 08:34:39,950 - __main__ - INFO - Assigned partitions: [TopicPartition{topic=cartevent,partition=0,offset=-1001,leader_epoch=None,error=None}]
+2025-02-10 08:34:43,400 - __main__ - INFO - Loading index page
+2025-02-10 08:34:43,401 - __main__ - INFO - Current queue size: 0
+2025-02-10 08:34:43,406 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:34:43] "GET / HTTP/1.1" 200 -
+2025-02-10 08:34:43,699 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:34:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-10 08:34:44,029 - __main__ - INFO - Received request for orders
+2025-02-10 08:34:44,029 - __main__ - INFO - Queue size before retrieval: 0
+2025-02-10 08:34:44,029 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:34:44,029 - __main__ - DEBUG - Orders being sent to frontend: []
+2025-02-10 08:34:44,030 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:34:44] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:34:44,169 - __main__ - INFO - Received request for orders
+2025-02-10 08:34:44,169 - __main__ - INFO - Queue size before retrieval: 0
+2025-02-10 08:34:44,169 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:34:44,170 - __main__ - DEBUG - Orders being sent to frontend: []
+2025-02-10 08:34:44,170 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:34:44] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:34:45,118 - __main__ - INFO - Received request for orders
+2025-02-10 08:34:45,118 - __main__ - INFO - Queue size before retrieval: 0
+2025-02-10 08:34:45,119 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:34:45,119 - __main__ - DEBUG - Orders being sent to frontend: []
+2025-02-10 08:34:45,119 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:34:45] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:35:01,860 - __main__ - INFO - Starting Kafka consumer for topic: cartevent
+2025-02-10 08:35:01,860 - __main__ - INFO - Kafka consumer thread started
+2025-02-10 08:35:01,862 - __main__ - INFO - Successfully created Kafka consumer instance
+2025-02-10 08:35:01,872 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://10.0.0.233:5003
+2025-02-10 08:35:01,872 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-10 08:35:01,876 - werkzeug - INFO -  * Restarting with stat
+2025-02-10 08:35:02,047 - __main__ - INFO - Starting Kafka consumer for topic: cartevent
+2025-02-10 08:35:02,047 - __main__ - INFO - Kafka consumer thread started
+2025-02-10 08:35:02,050 - __main__ - INFO - Successfully created Kafka consumer instance
+2025-02-10 08:35:02,061 - werkzeug - WARNING -  * Debugger is active!
+2025-02-10 08:35:02,061 - werkzeug - INFO -  * Debugger PIN: 230-102-780
+2025-02-10 08:35:04,596 - __main__ - INFO - Loading index page
+2025-02-10 08:35:04,596 - __main__ - INFO - Current queue size: 0
+2025-02-10 08:35:04,606 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:35:04] "GET / HTTP/1.1" 200 -
+2025-02-10 08:35:04,688 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:35:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-10 08:35:04,757 - __main__ - INFO - Received request for orders
+2025-02-10 08:35:04,758 - __main__ - INFO - Queue size before retrieval: 0
+2025-02-10 08:35:04,758 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:35:04,758 - __main__ - DEBUG - Orders being sent to frontend: []
+2025-02-10 08:35:04,759 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:35:04] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:35:05,460 - __main__ - INFO - Loading index page
+2025-02-10 08:35:05,460 - __main__ - INFO - Current queue size: 0
+2025-02-10 08:35:05,460 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:35:05] "GET / HTTP/1.1" 200 -
+2025-02-10 08:35:05,537 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:35:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-02-10 08:35:05,597 - __main__ - INFO - Received request for orders
+2025-02-10 08:35:05,597 - __main__ - INFO - Queue size before retrieval: 0
+2025-02-10 08:35:05,597 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:35:05,597 - __main__ - DEBUG - Orders being sent to frontend: []
+2025-02-10 08:35:05,598 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:35:05] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:35:06,384 - __main__ - INFO - Assigned partitions: [TopicPartition{topic=cartevent,partition=0,offset=-1001,leader_epoch=None,error=None}]
+2025-02-10 08:35:06,390 - __main__ - INFO - Assigned partitions: []
+2025-02-10 08:35:09,845 - __main__ - INFO - Received request for orders
+2025-02-10 08:35:09,845 - __main__ - INFO - Queue size before retrieval: 0
+2025-02-10 08:35:09,846 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:35:09,846 - __main__ - DEBUG - Orders being sent to frontend: []
+2025-02-10 08:35:09,846 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:35:09] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:35:10,599 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:35:10] "GET /debug_info HTTP/1.1" 200 -
+2025-02-10 08:35:16,242 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:35:16] "GET /debug_info HTTP/1.1" 200 -
+2025-02-10 08:35:21,237 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:35:21] "GET /debug_info HTTP/1.1" 200 -
+2025-02-10 08:35:26,253 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:35:26] "GET /debug_info HTTP/1.1" 200 -
+2025-02-10 08:35:31,254 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:35:31] "GET /debug_info HTTP/1.1" 200 -
+2025-02-10 08:35:36,577 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:35:36] "GET /debug_info HTTP/1.1" 200 -
+2025-02-10 08:35:41,139 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:35:41] "GET /debug_info HTTP/1.1" 200 -
+2025-02-10 08:35:46,156 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:35:46] "GET /debug_info HTTP/1.1" 200 -
+2025-02-10 08:35:46,394 - __main__ - DEBUG - Raw message received: b'{"customer_name": "Raghu", "delivery_address": "Baba", "products": [{"id": 2, "name": "Toy 2", "price": 15.99, "image": "toy2.jpg"}], "total_amount": 15.99}'
+2025-02-10 08:35:46,394 - __main__ - INFO - Successfully parsed message for customer: Raghu
+2025-02-10 08:35:46,394 - __main__ - DEBUG - Full message content: {'customer_name': 'Raghu', 'delivery_address': 'Baba', 'products': [{'id': 2, 'name': 'Toy 2', 'price': 15.99, 'image': 'toy2.jpg'}], 'total_amount': 15.99}
+2025-02-10 08:35:46,394 - __main__ - INFO - Added message to queue. Current queue size: 1
+2025-02-10 08:35:51,153 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:35:51] "GET /debug_info HTTP/1.1" 200 -
+2025-02-10 08:35:56,232 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:35:56] "GET /debug_info HTTP/1.1" 200 -
+2025-02-10 08:35:57,332 - __main__ - INFO - Received request for orders
+2025-02-10 08:35:57,332 - __main__ - INFO - Queue size before retrieval: 0
+2025-02-10 08:35:57,332 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:35:57,332 - __main__ - DEBUG - Orders being sent to frontend: []
+2025-02-10 08:35:57,337 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:35:57] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:35:58,203 - __main__ - INFO - Received request for orders
+2025-02-10 08:35:58,204 - __main__ - INFO - Queue size before retrieval: 0
+2025-02-10 08:35:58,204 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:35:58,204 - __main__ - DEBUG - Orders being sent to frontend: []
+2025-02-10 08:35:58,204 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:35:58] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:35:59,133 - __main__ - INFO - Received request for orders
+2025-02-10 08:35:59,134 - __main__ - INFO - Queue size before retrieval: 0
+2025-02-10 08:35:59,134 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:35:59,134 - __main__ - DEBUG - Orders being sent to frontend: []
+2025-02-10 08:35:59,135 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:35:59] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:35:59,770 - __main__ - INFO - Received request for orders
+2025-02-10 08:35:59,770 - __main__ - INFO - Queue size before retrieval: 0
+2025-02-10 08:35:59,770 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:35:59,770 - __main__ - DEBUG - Orders being sent to frontend: []
+2025-02-10 08:35:59,770 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:35:59] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:36:00,485 - __main__ - INFO - Received request for orders
+2025-02-10 08:36:00,489 - __main__ - INFO - Queue size before retrieval: 0
+2025-02-10 08:36:00,489 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:36:00,489 - __main__ - DEBUG - Orders being sent to frontend: []
+2025-02-10 08:36:00,490 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:36:00] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:36:00,606 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:36:00] "GET /debug_info HTTP/1.1" 200 -
+2025-02-10 08:36:01,209 - __main__ - INFO - Received request for orders
+2025-02-10 08:36:01,209 - __main__ - INFO - Queue size before retrieval: 0
+2025-02-10 08:36:01,209 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:36:01,210 - __main__ - DEBUG - Orders being sent to frontend: []
+2025-02-10 08:36:01,210 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:36:01] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:36:02,712 - __main__ - INFO - Received request for orders
+2025-02-10 08:36:02,713 - __main__ - INFO - Queue size before retrieval: 0
+2025-02-10 08:36:02,713 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:36:02,713 - __main__ - DEBUG - Orders being sent to frontend: []
+2025-02-10 08:36:02,714 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:36:02] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:36:03,547 - __main__ - INFO - Received request for orders
+2025-02-10 08:36:03,548 - __main__ - INFO - Queue size before retrieval: 0
+2025-02-10 08:36:03,548 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:36:03,548 - __main__ - DEBUG - Orders being sent to frontend: []
+2025-02-10 08:36:03,548 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:36:03] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:36:06,147 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:36:06] "GET /debug_info HTTP/1.1" 200 -
+2025-02-10 08:36:11,242 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:36:11] "GET /debug_info HTTP/1.1" 200 -
+2025-02-10 08:36:16,236 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:36:16] "GET /debug_info HTTP/1.1" 200 -
+2025-02-10 08:36:21,237 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:36:21] "GET /debug_info HTTP/1.1" 200 -
+2025-02-10 08:36:26,249 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:36:26] "GET /debug_info HTTP/1.1" 200 -
+2025-02-10 08:36:31,234 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:36:31] "GET /debug_info HTTP/1.1" 200 -
+2025-02-10 08:36:36,253 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:36:36] "GET /debug_info HTTP/1.1" 200 -
+2025-02-10 08:36:41,252 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:36:41] "GET /debug_info HTTP/1.1" 200 -
+2025-02-10 08:36:46,239 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:36:46] "GET /debug_info HTTP/1.1" 200 -
+2025-02-10 08:36:51,282 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:36:51] "GET /debug_info HTTP/1.1" 200 -
+2025-02-10 08:36:56,258 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:36:56] "GET /debug_info HTTP/1.1" 200 -
+2025-02-10 08:37:01,238 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:37:01] "GET /debug_info HTTP/1.1" 200 -
+2025-02-10 08:37:35,281 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:37:35] "GET /debug_info HTTP/1.1" 200 -
+2025-02-10 08:37:38,170 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:37:38] "GET /debug_info HTTP/1.1" 200 -
+2025-02-10 08:37:38,893 - __main__ - INFO - Received request for orders
+2025-02-10 08:37:38,894 - __main__ - INFO - Queue size before retrieval: 0
+2025-02-10 08:37:38,894 - __main__ - INFO - Returning 0 orders
+2025-02-10 08:37:38,894 - __main__ - DEBUG - Orders being sent to frontend: []
+2025-02-10 08:37:38,894 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:37:38] "GET /get_orders HTTP/1.1" 200 -
+2025-02-10 08:37:41,130 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:37:41] "GET /debug_info HTTP/1.1" 200 -
+2025-02-10 08:37:46,235 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:37:46] "GET /debug_info HTTP/1.1" 200 -
+2025-02-10 08:37:51,244 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2025 08:37:51] "GET /debug_info HTTP/1.1" 200 -

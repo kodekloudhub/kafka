@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - KodeKloud Toy Shop</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Your Cart</h1>
+    <div class="cart-items">
+        {% for item in cart %}
+        <div class="cart-item">
+            <img src="{{ url_for('static', filename='images/' + item.image) }}" alt="{{ item.name }}">
+            <h2>{{ item.name }}</h2>
+            <p>${{ item.price }}</p>
+        </div>
+        {% endfor %}
+    </div>
+    <form action="{{ url_for('place_order') }}" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required>
+        <button type="submit">Place Order</button>
+    </form>
+    <a href="{{ url_for('index') }}">Continue Shopping</a>
+</body>
+</html>

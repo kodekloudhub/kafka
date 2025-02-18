@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation - KodeKloud Toy Shop</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Thank you, {{ name }}!</h1>
+    <p>Your order has been placed.</p>
+    <a href="{{ url_for('index') }}">Return to Shop</a>
+</body>
+</html>
